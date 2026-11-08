@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taha Ali | App & Web Developer | Creative Digital Creator</title>
+  <meta name="description" content="Official portfolio of Taha Ali - App and Web Developer & Digital Creator specializing in Full-Stack Web Development, iOS & Android Mobile Apps, UI/UX Design, and Creative Media." />
+  <meta name="author" content="Taha Ali" />
+  
+  <!-- Favicon Monogram -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23090c14'/><text x='50%' y='62%' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='52' fill='%238b5cf6'>TA</text></svg>" />
+
+  <!-- Google Fonts: Syne (Headings) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6.5 Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Elements -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+    <div class="cyber-grid"></div>
+  </div>
+
+  <!-- ========================================================
+       FIXED GLASSMORPHIC NAVIGATION BAR (Exactly 4 Tabs)
+       ======================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      
+      <!-- Brand Monogram / Avatar & Name -->
+      <a href="#home" class="brand-logo" aria-label="Taha Ali Portfolio Home">
+        <div class="logo-badge logo-avatar-badge">
+          <img src="assets/taha-ali.jpg" alt="Taha Ali" class="logo-avatar-img" />
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Taha Ali</span>
+          <span class="logo-role">App & Web Developer</span>
+        </div>
+      </a>
+
+      <!-- Exactly 4 Navigation Tabs -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">
+              <i class="fa-solid fa-code"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#order" class="nav-link">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Order</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Desktop Nav Quick CTA -->
+      <div class="nav-actions">
+        <a href="#order" class="nav-cta-btn">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Hire Me</span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================
+         1. HOME SECTION (Hero, Skills & Introduction)
+         ======================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Hero Left Column: Intro & Call-to-Actions -->
+          <div class="hero-content">
+            <div class="hero-status-badge">
+              <span class="pulse-dot"></span>
+              <span>Available for Freelance Apps, Web & Collaborations</span>
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="hero-heading">
+              Hi, I'm <span class="text-gradient">Taha Ali</span>
+            </h1>
+
+            <!-- Subtitle with dynamic typing effect -->
+            <div class="hero-subtitle">
+              <span class="text-gradient-purple">App & Web Developer</span>
+              <span style="color: var(--electric-blue); font-weight: 300;">|</span>
+              <span class="text-gradient-blue" id="typingText">Digital Creator</span>
+            </div>
+
+            <!-- Short Introduction About Skills & Work -->
+            <p class="hero-description">
+              Passionate <strong>App and Web Developer</strong> & <strong>Digital Creator</strong> dedicated to engineering high-performance modern web platforms, scalable mobile applications (iOS & Android), futuristic UI/UX designs, and engaging digital media. I convert complex requirements into clean, seamless, revenue-driving software.
+            </p>
+
+            <!-- Two Buttons -->
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Projects</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Contact Me</span>
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+
+            <!-- Stats Highlight Counter -->
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number">150<span>+</span></div>
+                <div class="stat-label">Projects & Apps Built</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100<span>%</span></div>
+                <div class="stat-label">Client Satisfaction</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">4<span>+</span></div>
+                <div class="stat-label">Years of Experience</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Developer Showcase Visual Card -->
+          <div class="hero-visual">
+            <div class="profile-card-wrapper">
+              <div class="card-backdrop-glow"></div>
+              
+              <div class="creative-showcase-card">
+                <!-- Window UI Header -->
+                <div class="card-header-badge">
+                  <div class="window-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <span class="badge-tag"><i class="fa-solid fa-circle-check" style="color: #10b981; margin-right: 4px;"></i> Verified Developer</span>
+                </div>
+
+                <!-- Taha Ali Portrait Photo Frame -->
+                <div class="creator-portrait-wrap">
+                  <div class="portrait-image-container">
+                    <img src="assets/taha-ali.jpg" alt="Taha Ali - App & Web Developer" class="creator-portrait-img" />
+                    <div class="portrait-overlay"></div>
+                    <div class="verified-online-chip">
+                      <span class="pulse-dot"></span>
+                      <span>Available for Hire</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Creator Summary -->
+                <div class="creator-card-info">
+                  <h3 class="creator-card-name">Taha Ali</h3>
+                  <p class="creator-card-handle"><i class="fa-solid fa-code" style="color: var(--electric-blue);"></i> App & Web Developer</p>
+                </div>
+
+                <!-- Core Developer Skills Cloud -->
+                <div class="skills-cloud">
+                  <span class="skill-pill"><i class="fa-solid fa-laptop-code"></i> Full-Stack Web</span>
+                  <span class="skill-pill"><i class="fa-solid fa-mobile-screen-button"></i> Mobile Apps</span>
+                  <span class="skill-pill"><i class="fa-brands fa-react"></i> React / Next.js</span>
+                  <span class="skill-pill"><i class="fa-solid fa-cubes"></i> Flutter & APIs</span>
+                  <span class="skill-pill"><i class="fa-solid fa-bezier-curve"></i> UI/UX Design</span>
+                  <span class="skill-pill"><i class="fa-solid fa-film"></i> Video & Media</span>
+                </div>
+
+                <!-- Floating Badges Around Card -->
+                <div class="floating-badge floating-badge-1">
+                  <div class="badge-icon purple">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                  <div class="badge-info">
+                    <span class="badge-info-title">Clean Code</span>
+                    <span class="badge-info-desc">Modern & Scalable</span>
+                  </div>
+                </div>
+
+                <div class="floating-badge floating-badge-2">
+                  <div class="badge-icon blue">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div class="badge-info">
+                    <span class="badge-info-title">Fast Response</span>
+                    <span class="badge-info-desc">WhatsApp Ready</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         2. PROJECTS SECTION (Showcase, Categories, Modern Cards)
+         ======================================================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Curated Portfolio</span>
+          </div>
+          <h2 class="section-title">
+            Featured <span class="text-gradient">Projects</span>
+          </h2>
+          <p class="section-subtitle">
+            Explore a selection of my latest Web Applications, Mobile Apps, UI/UX systems, and creative digital media. Click any card for tech stack details or commission a similar project on WhatsApp.
+          </p>
+        </div>
+
+        <!-- Project Categories Filter -->
+        <div class="filter-wrapper">
+          <div class="filter-tabs" role="tablist">
+            <button class="filter-btn active" data-category="all" role="tab">All Projects</button>
+            <button class="filter-btn" data-category="web" role="tab">Web Development</button>
+            <button class="filter-btn" data-category="app" role="tab">Mobile Apps</button>
+            <button class="filter-btn" data-category="uiux" role="tab">UI/UX Design</button>
+            <button class="filter-btn" data-category="creative" role="tab">Video & Media</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Projects Grid (Rendered from js/projects-data.js) -->
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Populated dynamically via JavaScript -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         3. ORDER SECTION (Professional WhatsApp Integration)
+         ======================================================== -->
+    <section class="order-section" id="order">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-rocket"></i>
+            <span>Hire Me</span>
+          </div>
+          <h2 class="section-title">
+            Order Your <span class="text-gradient">Project</span>
+          </h2>
+          <p class="section-subtitle">
+            Need a modern web application, custom mobile app, UI redesign, or creative video package? Fill out the details below and hit "Place Order on WhatsApp" to message me directly.
+          </p>
+        </div>
+
+        <div class="order-wrapper">
+
+          <!-- Order Info / Value Proposition Column -->
+          <div class="order-info">
+            <div class="glass-card" style="padding: 2.2rem;">
+              <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: #fff;">
+                Why Hire Taha Ali?
+              </h3>
+
+              <div class="order-perk" style="margin-bottom: 1.5rem;">
+                <div class="order-perk-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="order-perk-content">
+                  <h4>Modern & Maintainable Architecture</h4>
+                  <p>Clean, modular, and optimized code following modern industry best practices for high speed and SEO excellence.</p>
+                </div>
+              </div>
+
+              <div class="order-perk" style="margin-bottom: 1.5rem;">
+                <div class="order-perk-icon">
+                  <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+                <div class="order-perk-content">
+                  <h4>100% Cross-Platform Responsive</h4>
+                  <p>Flawless user experience on iPhone, Android, tablets, and desktop computers with glassmorphic aesthetics.</p>
+                </div>
+              </div>
+
+              <div class="order-perk">
+                <div class="order-perk-icon">
+                  <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="order-perk-content">
+                  <h4>Direct WhatsApp Collaboration</h4>
+                  <p>Continuous progress reports, staging previews, and rapid revisions directly through 1-on-1 WhatsApp chat.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp Direct Badge -->
+            <div class="whatsapp-direct-box">
+              <div class="direct-box-text">
+                <h4>Prefer Direct WhatsApp Discussion?</h4>
+                <p>Have custom requirements? Message my number directly: <strong>03158615052</strong></p>
+              </div>
+              <a href="https://wa.me/923158615052" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="padding: 0.75rem 1.4rem; white-space: nowrap;">
+                <i class="fa-brands fa-whatsapp"></i> Chat Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Professional Order Form -->
+          <div class="order-form-card">
+            <div class="form-header">
+              <h3>Start Your App or Web Project</h3>
+              <p>Provide your specifications to generate a formatted WhatsApp message automatically.</p>
+            </div>
+
+            <form id="orderForm" novalidate>
+              
+              <!-- Customer Name -->
+              <div class="form-group">
+                <label for="orderName">
+                  <i class="fa-solid fa-user"></i> Customer Name *
+                </label>
+                <input 
+                  type="text" 
+                  id="orderName" 
+                  class="form-input" 
+                  placeholder="e.g. John Doe" 
+                  required 
+                />
+              </div>
+
+              <!-- WhatsApp Number -->
+              <div class="form-group">
+                <label for="orderPhone">
+                  <i class="fa-brands fa-whatsapp"></i> Your WhatsApp Number *
+                </label>
+                <input 
+                  type="tel" 
+                  id="orderPhone" 
+                  class="form-input" 
+                  placeholder="e.g. 03001234567 or +92..." 
+                  required 
+                />
+              </div>
+
+              <!-- Select Service -->
+              <div class="form-group">
+                <label for="orderService">
+                  <i class="fa-solid fa-briefcase"></i> Select Service *
+                </label>
+                <select id="orderService" class="form-select" required>
+                  <option value="" disabled selected>Select the service you need...</option>
+                  <option value="Full-Stack Web Development (Custom Website / Web App)">Full-Stack Web Development (Custom Website / Web App)</option>
+                  <option value="Mobile App Development (iOS & Android / Flutter / React Native)">Mobile App Development (iOS & Android / Flutter / React Native)</option>
+                  <option value="E-Commerce Online Store with Payment Gateway">E-Commerce Online Store with Payment Gateway</option>
+                  <option value="Frontend Web Development (React / Next.js / Tailwind)">Frontend Web Development (React / Next.js / Tailwind)</option>
+                  <option value="UI/UX App & Web Design (Figma Prototyping)">UI/UX App & Web Design (Figma Prototyping)</option>
+                  <option value="Cinematic Video Editing & Motion Graphics">Cinematic Video Editing & Motion Graphics</option>
+                  <option value="Social Media Content & Creator Kit">Social Media Content & Creator Kit</option>
+                  <option value="Custom Software Consultation">Custom Software Consultation</option>
+                </select>
+              </div>
+
+              <!-- Budget -->
+              <div class="form-group">
+                <label>
+                  <i class="fa-solid fa-wallet"></i> Estimated Budget / Tier
+                </label>
+                <input 
+                  type="text" 
+                  id="orderBudget" 
+                  class="form-input" 
+                  placeholder="e.g. Starter, Standard, Premium, or Enter in PKR / USD" 
+                />
+                <!-- Quick Budget Selection Chips -->
+                <div class="budget-options">
+                  <div class="budget-chip" data-budget="Starter Package">Starter</div>
+                  <div class="budget-chip active" data-budget="Standard Package">Standard</div>
+                  <div class="budget-chip" data-budget="Premium / Custom Enterprise">Premium</div>
+                  <div class="budget-chip" data-budget="Flexible / Negotiable">Flexible</div>
+                </div>
+              </div>
+
+              <!-- Project Details -->
+              <div class="form-group">
+                <label for="orderDetails">
+                  <i class="fa-solid fa-pen-to-square"></i> Project Details *
+                </label>
+                <textarea 
+                  id="orderDetails" 
+                  class="form-textarea" 
+                  placeholder="Describe your website or app idea, required features, reference links, and deadline..." 
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Submit WhatsApp Order Button -->
+              <button type="submit" class="btn btn-whatsapp order-btn-submit">
+                <i class="fa-brands fa-whatsapp" style="font-size: 1.3rem;"></i>
+                <span>Place Order on WhatsApp</span>
+              </button>
+
+              <div class="order-helper-note">
+                <i class="fa-solid fa-lock"></i>
+                <span>Directly delivers details to Taha Ali (+92 315 8615052)</span>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. CONTACT SECTION (All Verified Accounts & Details)
+         ======================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-address-book"></i>
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">
+            Contact & <span class="text-gradient">Social Media</span>
+          </h2>
+          <p class="section-subtitle">
+            Connect with me across all my official social handles or send a direct project inquiry. All channels are actively monitored for development projects and business inquiries.
+          </p>
+        </div>
+
+        <!-- 4 Official Contact & Social Media Cards -->
+        <div class="contact-cards-grid">
+
+          <!-- 1. WhatsApp Card -->
+          <a href="https://wa.me/923158615052" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon-bubble whatsapp-bubble">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <h3 class="contact-platform-title">WhatsApp</h3>
+            <p class="contact-platform-handle">03158615052</p>
+            <div class="contact-card-cta">
+              <span>Chat Directly</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </a>
+
+          <!-- 2. TikTok Card -->
+          <a href="https://www.tiktok.com/@muhammad_taha450k?_r=1&_t=ZS-9BE6iIigsnY" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon-bubble tiktok-bubble">
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <h3 class="contact-platform-title">TikTok</h3>
+            <p class="contact-platform-handle">@muhammad_taha450k</p>
+            <div class="contact-card-cta">
+              <span>Follow on TikTok</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </a>
+
+          <!-- 3. Instagram Card -->
+          <a href="https://www.instagram.com/itx_tahaali.k" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon-bubble instagram-bubble">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <h3 class="contact-platform-title">Instagram</h3>
+            <p class="contact-platform-handle">@itx_tahaali.k</p>
+            <div class="contact-card-cta">
+              <span>View Profile</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </a>
+
+          <!-- 4. Facebook Card -->
+          <a href="https://www.facebook.com/share/18WbuNJE87/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon-bubble facebook-bubble">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <h3 class="contact-platform-title">Facebook</h3>
+            <p class="contact-platform-handle">Taha Ali Profile</p>
+            <div class="contact-card-cta">
+              <span>Connect on Facebook</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Direct Inquiry & Quick Message Box -->
+        <div class="direct-message-box">
+          <div class="direct-msg-info">
+            <div class="section-tag" style="margin-bottom: 0.8rem;">
+              <i class="fa-solid fa-terminal"></i>
+              <span>Direct Communication</span>
+            </div>
+            <h3>Let's Engineer Your Next Web or Mobile App</h3>
+            <p>
+              Looking for a custom web application, cross-platform mobile app (Flutter / React Native), responsive landing page, or creative video showcase? Let's discuss your timeline and technical specs.
+            </p>
+
+            <div class="contact-pill-list">
+              <div class="contact-pill-item">
+                <span><i class="fa-brands fa-whatsapp"></i> WhatsApp: 03158615052</span>
+                <button class="btn-copy" data-copy="03158615052" title="Copy Number">
+                  <i class="fa-regular fa-copy"></i> Copy
+                </button>
+              </div>
+              <div class="contact-pill-item">
+                <span><i class="fa-solid fa-globe"></i> International: +92 315 8615052</span>
+                <button class="btn-copy" data-copy="+923158615052" title="Copy International Number">
+                  <i class="fa-regular fa-copy"></i> Copy
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Message Form -->
+          <div class="quick-msg-form-wrapper">
+            <form id="quickContactForm" class="quick-note-form">
+              <h4 style="font-size: 1.25rem; color: #fff; margin-bottom: 0.5rem;">Send a Quick Inquiry</h4>
+              <div class="form-group" style="margin-bottom: 0.8rem;">
+                <input type="text" id="quickName" class="form-input" placeholder="Your Name" required />
+              </div>
+              <div class="form-group" style="margin-bottom: 0.8rem;">
+                <textarea id="quickMessage" class="form-textarea" style="min-height: 90px;" placeholder="Write a short message or inquiry regarding your app/web project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       PROJECT DETAILS MODAL
+       ======================================================== -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" onclick="if(event.target === this) closeProjectModal()">
+    <div class="modal-content">
+      <button class="modal-close-btn" onclick="closeProjectModal()" aria-label="Close Project Details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modalDetails">
+        <!-- Rendered dynamically via js/main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       FLOATING WHATSAPP BUTTON (On Every Page)
+       ======================================================== -->
+  <a 
+    href="https://wa.me/923158615052" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="floating-whatsapp" 
+    aria-label="Direct Chat with Taha Ali on WhatsApp"
+  >
+    <div class="whatsapp-tooltip">Chat with Taha Ali</div>
+    <div class="whatsapp-beacon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+  </a>
+
+  <!-- ========================================================
+       PROFESSIONAL FOOTER
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Footer Col 1: Brand Info -->
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="logo-badge logo-avatar-badge">
+              <img src="assets/taha-ali.jpg" alt="Taha Ali" class="logo-avatar-img" />
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">Taha Ali</span>
+              <span class="logo-role">App & Web Developer</span>
+            </div>
+          </a>
+          <p>
+            Engineering scalable web applications, cross-platform mobile apps, and high-impact digital experiences for creators and enterprises worldwide.
+          </p>
+        </div>
+
+        <!-- Footer Col 2: Navigation Links -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-angle-right"></i> Projects</a></li>
+            <li><a href="#order"><i class="fa-solid fa-angle-right"></i> Place Order</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-angle-right"></i> Contact & Socials</a></li>
+          </ul>
+        </div>
+
+        <!-- Footer Col 3: Official Channels -->
+        <div class="footer-socials-col">
+          <h4 class="footer-col-title">Official Channels</h4>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
+            Connect with me for collaborations and live updates:
+          </p>
+          <div class="footer-social-bar">
+            <a href="https://wa.me/923158615052" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.tiktok.com/@muhammad_taha450k?_r=1&_t=ZS-9BE6iIigsnY" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://www.instagram.com/itx_tahaali.k" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/18WbuNJE87/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> <strong>Taha Ali</strong> — App & Web Developer. All Rights Reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <span>Dark Cyber Glassmorphism UI</span>
+          <span>•</span>
+          <a href="#home" style="color: var(--electric-blue-light); text-decoration: none;">Back to top &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Data & Scripts -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Update footer year dynamically
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
